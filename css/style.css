@@ -73,7 +73,7 @@ img {
 .main-button:focus {
   background-color: #ffe450;
 }
-
+/*==============HERO-SECTION==============*/
 .hero-section {
   padding-top: 14px;
   padding-bottom: 69px;
@@ -320,4 +320,107 @@ img {
   line-height: 1.5;
   color: #2c2c2c;
 }
+.subskribe-container {
+  display: flex;
+  align-items: center;
+}
+.subskribe-div {
+  width: 656px;
+  margin-right: 37px;
+}
 /*================SECTION-SUBSKRIBE==================*/
+
+/*================FOOTER==================*/
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../images/Fruit\ Futer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-menu {
+  display: flex;
+  gap: 28px;
+  margin-right: 320px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.form-link-footer {
+}
+.logo-form-footer {
+  display: flex;
+  align-items: center;
+}
+.logo-footer {
+  margin-right: 143px;
+}
+.footer-subscribe {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-bottom: 12px;
+}
+.footer-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 279px;
+  height: 42px;
+  margin-right: 13px;
+}
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+.footer-btn {
+  border: 0.85px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.footer-form {
+  margin-bottom: 12px;
+}
+.footer-text-form {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+.footer-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
+}
+.list-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.list-footer {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
+}
+.footer-end {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+/*=================FOOTER==================*/
